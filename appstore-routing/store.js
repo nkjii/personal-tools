@@ -40,10 +40,10 @@ function showDialog() {
     )
   ) {
     if (os === "iOS") {
-      window.location.href = "https://apps.apple.com/jp/app/yourapp";
+      window.location.href = "https://apps.apple.com/jp/app";
     } else if (os === "Android") {
       window.location.href =
-        "https://play.google.com/store/apps/details?id=com.yourapp.package";
+        "https://play.google.com/store/apps";
     }
   }
 }
